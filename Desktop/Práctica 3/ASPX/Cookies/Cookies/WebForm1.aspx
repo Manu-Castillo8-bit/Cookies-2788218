@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Enter Product" Font-Bold="True"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="Enter Product" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Large" ForeColor="Red"></asp:Label>
             <br />
             <br />
             <asp:Label ID="Label10" runat="server" Text="Category_________________"></asp:Label>
@@ -48,7 +48,7 @@
             <asp:TextBox ID="txtReorderLevel" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="btnConfirm" runat="server" Text="Confirm" OnClick="btnConfirm_Click1" />
+            <asp:Button ID="btnConfirm" runat="server" Text="Confirm" OnClick="btnConfirm_Click1" BorderStyle="Ridge" />
             <br />
           
             
